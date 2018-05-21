@@ -1,0 +1,20 @@
+{
+  "name": "spa-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-bootstrap-slider": "^2.1.5",
+    "react-dom": "^16.3.2",
+    "react-html5-slider": "^0.2.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,33 @@
+            <li className="item">
+              <div className="front">
+                <div className="frontimage" />
+                <div className="info">
+                  <header>
+                    <h1 className="itemname">HP spectre x360</h1>
+                    <span className="date">2017</span>
+                    <span className="companyinitials">HP</span>
+                    <span className="more">Rs 160000</span>
+                  </header>
+                  <p>Description:</p>
+                  <p>
+                    <button>View</button>
+                    <button>Save</button>
+                    <button>Buy Now</button>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+
+
+             <ReactBootstrapSlider
+    value={this.state.currentValue}
+    change={this.changeValue}
+    slideStop={this.changeValue}
+    step={this.state.step}
+    max={this.state.max}
+    min={this.state.min}
+    orientation="vertical"
+    reversed={true}
+     />
