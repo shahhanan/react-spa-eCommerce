@@ -61,7 +61,7 @@ body {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
-  color: #000;
+  color: #F0FFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -1734,7 +1734,7 @@ hr {
 
 .u-header__section--light .navbar-nav:not([class*="u-main-nav-v"]) .nav-link,
 .u-header__section--light--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link {
-  color: white;
+  color: black;
 }
 
 .u-header__section--light .navbar-nav:not([class*="u-main-nav-v"]) .nav-link:focus,
@@ -32104,11 +32104,11 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-color-white-opacity-0_5, .g-color-white-opacity-0_5--hover:hover {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .g-color-white-opacity-0_6 {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .g-parent:hover .g-color-white-opacity-0_6--parent-hover {
@@ -32124,7 +32124,7 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .g-color-white-opacity-0_8 {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(0, 0, 0, 1) !important;
 }
 
 .g-color-white-opacity-0_8--child * {
@@ -45690,8 +45690,6 @@ p {
   
 }
 .g-bg-custom{
-  background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ffffff;
 
 }

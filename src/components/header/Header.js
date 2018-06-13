@@ -430,12 +430,12 @@ function ImageDiv(props) {
     >
       <BgImage imageUrl="'./assets/images/l3.jpg'" />
 
-      <div className="containert g-color-black g-pt-100 g-pb-40">
+      <div className="containert g-color-white g-pt-100 g-pb-40">
         <div className="g-mb-50">
-          <h3 className="g-color-black g-font-size-50 g-font-size-50--md g-line-height-1_2 mb-0 pp126">
+          <h3 className="g-color-white g-font-size-50 g-font-size-50--md g-line-height-1_2 mb-0 pp126">
             some content here.
           </h3>
-          <p className="g-color-black  g-font-weight-600 g-font-size-20 text-uppercase pp126">
+          <p className="g-color-white  g-font-weight-600 g-font-size-20 text-uppercase pp126">
            some more content here
           </p>
         </div>

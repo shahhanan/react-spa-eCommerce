@@ -4,15 +4,18 @@
   "private": true,
   "dependencies": {
     "jquery": "^3.3.1",
-    "react": "^16.3.2",
+    "react": "16.0.0",
     "react-bootstrap": "^0.32.1",
     "react-bootstrap-slider": "^2.1.5",
-    "react-dom": "^16.3.2",
+    "react-dom": "16.0.0",
     "react-html5-slider": "^0.2.1",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
+    "start": "set PORT=3009 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
